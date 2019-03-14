@@ -39,7 +39,7 @@ module.exports = function getZerosCount(number, base) {
     i=i+countSame;
   }
 
-  for(var i=1; i<results.length; i++) {
+  for(var i=0; i<results.length; i++) {
     var min=results[0];
     if(results[i] < min) min=results[i];
   }
